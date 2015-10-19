@@ -32,7 +32,7 @@ function addToDom(house){
 	$el.append("<p>$" + house.pricePer + "/ Sq. Ft.</p>");
 	$el.append("<button id='delete'>Remove</button>");
 
-	$el.hide().slideDown(1000);
+	$el.hide().slideDown(500);
 	
 }
 
@@ -42,8 +42,8 @@ function deleteProperty(context){
 		if(propertyArray[i].propId==$parent.data("prop")){
 			propertyArray.splice(i,1);
 			// $parent.remove();
-			$parent.slideUp(1000);
-			$parent.delay(1000, function(){
+			$parent.slideUp(500);
+			$parent.delay(500, function(){
 				this.remove();
 			});
 		}
