@@ -1,0 +1,9 @@
+.house {
+	padding: 5px;
+	border: 1px solid black;
+	background: #EEE;
+}
+.house p{
+	display:inline-block;
+	padding-right: 20px;
+}
